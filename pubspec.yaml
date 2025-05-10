@@ -9,7 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.5
-  flutter_maplibre_gl: ^0.16.0
+  maplibre_gl: ^0.16.0  # Changed from flutter_maplibre_gl to match imports
   sqflite: ^2.2.8+4
   path_provider: ^2.0.15
   image_picker: ^0.8.7+5

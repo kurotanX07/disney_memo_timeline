@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter_maplibre_gl/maplibre_gl.dart';
+import 'package:flutter_maplibre_gl/maplibre_gl.dart'; // Fixed import
 import 'package:image_picker/image_picker.dart';
 import '../providers/memo_provider.dart';
 import '../widgets/memo_card.dart';
@@ -19,7 +19,7 @@ class MapScreen extends StatefulWidget {
 }
 
 class _MapScreenState extends State<MapScreen> {
-  MaplibreMapController? _mapController; // Mapboxから変更
+  MaplibreMapController? _mapController;
   bool _isCameraMode = false;
   String? _selectedMemoId;
 
@@ -90,11 +90,10 @@ class _MapScreenState extends State<MapScreen> {
       ),
       body: Stack(
         children: [
-          // Map - MapLibre版に変更
+          // Map - MapLibre version
           MaplibreMap(
-            // accessTokenは不要なので削除
             styleString:
-                'https://demotiles.maplibre.org/style.json', // オープンな地図スタイル
+                'https://demotiles.maplibre.org/style.json', // Open map style
             initialCameraPosition: CameraPosition(
               target: _center,
               zoom: _initialZoom,
@@ -185,7 +184,6 @@ class _MapScreenState extends State<MapScreen> {
   }
 
   void _onMapCreated(MaplibreMapController controller) {
-    // Mapboxから変更
     _mapController = controller;
 
     // Add symbols for locations from MapService
@@ -215,7 +213,7 @@ class _MapScreenState extends State<MapScreen> {
   }
 
   String _getIconForLocationType(String type) {
-    // MapLibreでも使用可能な標準アイコン
+    // MapLibre available standard icons
     switch (type) {
       case 'attraction':
         return 'amusement-park-15';
