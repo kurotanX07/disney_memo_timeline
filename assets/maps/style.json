@@ -1,0 +1,162 @@
+{
+  "version": 8,
+  "name": "Disney Resort Offline Style",
+  "sources": {
+    "osm": {
+      "type": "vector",
+      "tiles": ["asset://assets/maps/tiles/{z}/{x}/{y}.pbf"],
+      "maxzoom": 18,
+      "minzoom": 10
+    },
+    "disney_locations": {
+      "type": "geojson",
+      "data": "asset://assets/maps/disney_locations.geojson"
+    }
+  },
+  "glyphs": "asset://assets/maps/fonts/{fontstack}/{range}.pbf",
+  "sprite": "asset://assets/maps/sprites/sprite",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#f8f4f0"
+      }
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "osm",
+      "source-layer": "water",
+      "paint": {
+        "fill-color": "#a0c8f0"
+      }
+    },
+    {
+      "id": "landuse_park",
+      "type": "fill",
+      "source": "osm",
+      "source-layer": "landuse",
+      "filter": ["==", "class", "park"],
+      "paint": {
+        "fill-color": "#c8daaf"
+      }
+    },
+    {
+      "id": "buildings",
+      "type": "fill",
+      "source": "osm",
+      "source-layer": "building",
+      "paint": {
+        "fill-color": "#d9ccbc",
+        "fill-outline-color": "#cbbcac"
+      }
+    },
+    {
+      "id": "roads",
+      "type": "line",
+      "source": "osm",
+      "source-layer": "transportation",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          10, 1,
+          16, 4
+        ]
+      }
+    },
+    {
+      "id": "disney_attraction_labels",
+      "type": "symbol",
+      "source": "disney_locations",
+      "filter": ["==", ["get", "type"], "attraction"],
+      "layout": {
+        "icon-image": "attraction-15",
+        "icon-size": 1,
+        "text-field": ["get", "name"],
+        "text-font": ["Open Sans Regular"],
+        "text-size": 12,
+        "text-offset": [0, 1.5],
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#333333"
+      }
+    },
+    {
+      "id": "disney_restaurant_labels",
+      "type": "symbol",
+      "source": "disney_locations",
+      "filter": ["==", ["get", "type"], "restaurant"],
+      "layout": {
+        "icon-image": "restaurant-15",
+        "icon-size": 1,
+        "text-field": ["get", "name"],
+        "text-font": ["Open Sans Regular"],
+        "text-size": 12,
+        "text-offset": [0, 1.5],
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#333333"
+      }
+    },
+    {
+      "id": "disney_shop_labels",
+      "type": "symbol",
+      "source": "disney_locations",
+      "filter": ["==", ["get", "type"], "shop"],
+      "layout": {
+        "icon-image": "shop-15",
+        "icon-size": 1,
+        "text-field": ["get", "name"],
+        "text-font": ["Open Sans Regular"],
+        "text-size": 12,
+        "text-offset": [0, 1.5],
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#333333"
+      }
+    },
+    {
+      "id": "disney_hotel_labels",
+      "type": "symbol",
+      "source": "disney_locations",
+      "filter": ["==", ["get", "type"], "hotel"],
+      "layout": {
+        "icon-image": "lodging-15",
+        "icon-size": 1,
+        "text-field": ["get", "name"],
+        "text-font": ["Open Sans Regular"],
+        "text-size": 12,
+        "text-offset": [0, 1.5],
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#333333"
+      }
+    },
+    {
+      "id": "disney_station_labels",
+      "type": "symbol",
+      "source": "disney_locations",
+      "filter": ["==", ["get", "type"], "station"],
+      "layout": {
+        "icon-image": "rail-15",
+        "icon-size": 1,
+        "text-field": ["get", "name"],
+        "text-font": ["Open Sans Regular"],
+        "text-size": 12,
+        "text-offset": [0, 1.5],
+        "text-anchor": "top"
+      },
+      "paint": {
+        "text-color": "#333333"
+      }
+    }
+  ]
+}

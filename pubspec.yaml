@@ -1,0 +1,35 @@
+name: disney_memo_timeline
+description: Tokyo Disney Resort Memo & Photo Timeline App
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  flutter_maplibre_gl: ^0.16.0
+  sqflite: ^2.2.8+4
+  path_provider: ^2.0.15
+  image_picker: ^0.8.7+5
+  intl: ^0.18.1
+  provider: ^6.0.5
+  share_plus: ^7.0.2
+  path: ^1.8.3
+  uuid: ^3.0.7
+  flutter_archive: ^5.0.0
+  sqflite_sqlcipher: ^2.2.1
+  shared_preferences: ^2.1.1
+  file_picker: ^5.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/maps/
+    - assets/icons/

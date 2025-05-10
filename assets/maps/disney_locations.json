@@ -1,0 +1,268 @@
+[
+  {
+    "name": "Cinderella Castle",
+    "area": "Fantasyland",
+    "latitude": 35.632900,
+    "longitude": 139.880400,
+    "type": "attraction"
+  },
+  {
+    "name": "Splash Mountain",
+    "area": "Critter Country",
+    "latitude": 35.632100,
+    "longitude": 139.879500,
+    "type": "attraction"
+  },
+  {
+    "name": "Space Mountain",
+    "area": "Tomorrowland",
+    "latitude": 35.633500,
+    "longitude": 139.880000,
+    "type": "attraction"
+  },
+  {
+    "name": "Big Thunder Mountain",
+    "area": "Westernland",
+    "latitude": 35.632200,
+    "longitude": 139.878900,
+    "type": "attraction"
+  },
+  {
+    "name": "Haunted Mansion",
+    "area": "Fantasyland",
+    "latitude": 35.631900,
+    "longitude": 139.879300,
+    "type": "attraction"
+  },
+  {
+    "name": "Pirates of the Caribbean",
+    "area": "Adventureland",
+    "latitude": 35.631400,
+    "longitude": 139.878800,
+    "type": "attraction"
+  },
+  {
+    "name": "It's a Small World",
+    "area": "Fantasyland",
+    "latitude": 35.633100,
+    "longitude": 139.879500,
+    "type": "attraction"
+  },
+  {
+    "name": "Star Tours",
+    "area": "Tomorrowland",
+    "latitude": 35.633200,
+    "longitude": 139.880600,
+    "type": "attraction"
+  },
+  {
+    "name": "The Enchanted Tiki Room",
+    "area": "Adventureland",
+    "latitude": 35.631800,
+    "longitude": 139.878200,
+    "type": "attraction"
+  },
+  {
+    "name": "Jungle Cruise",
+    "area": "Adventureland",
+    "latitude": 35.631200,
+    "longitude": 139.878500,
+    "type": "attraction"
+  },
+  {
+    "name": "Crystal Palace Restaurant",
+    "area": "World Bazaar",
+    "latitude": 35.632700,
+    "longitude": 139.879800,
+    "type": "restaurant"
+  },
+  {
+    "name": "Queen of Hearts Banquet Hall",
+    "area": "Fantasyland",
+    "latitude": 35.632600,
+    "longitude": 139.880700,
+    "type": "restaurant"
+  },
+  {
+    "name": "Grandma Sara's Kitchen",
+    "area": "Critter Country",
+    "latitude": 35.632000,
+    "longitude": 139.879200,
+    "type": "restaurant"
+  },
+  {
+    "name": "World Bazaar Confectionery",
+    "area": "World Bazaar",
+    "latitude": 35.633000,
+    "longitude": 139.879900,
+    "type": "shop"
+  },
+  {
+    "name": "Pooh Corner",
+    "area": "Fantasyland",
+    "latitude": 35.632300,
+    "longitude": 139.880500,
+    "type": "shop"
+  },
+  {
+    "name": "Mediterranean Harbor",
+    "area": "Mediterranean Harbor",
+    "latitude": 35.626700,
+    "longitude": 139.885300,
+    "type": "area"
+  },
+  {
+    "name": "Tower of Terror",
+    "area": "American Waterfront",
+    "latitude": 35.625600,
+    "longitude": 139.887200,
+    "type": "attraction"
+  },
+  {
+    "name": "Journey to the Center of the Earth",
+    "area": "Mysterious Island",
+    "latitude": 35.626200,
+    "longitude": 139.884200,
+    "type": "attraction"
+  },
+  {
+    "name": "Raging Spirits",
+    "area": "Lost River Delta",
+    "latitude": 35.624800,
+    "longitude": 139.883800,
+    "type": "attraction"
+  },
+  {
+    "name": "Indiana Jones Adventure",
+    "area": "Lost River Delta",
+    "latitude": 35.624500,
+    "longitude": 139.884100,
+    "type": "attraction"
+  },
+  {
+    "name": "Toy Story Mania!",
+    "area": "American Waterfront",
+    "latitude": 35.625900,
+    "longitude": 139.887900,
+    "type": "attraction"
+  },
+  {
+    "name": "Soaring: Fantastic Flight",
+    "area": "Mediterranean Harbor",
+    "latitude": 35.626500,
+    "longitude": 139.885700,
+    "type": "attraction"
+  },
+  {
+    "name": "20,000 Leagues Under the Sea",
+    "area": "Mysterious Island",
+    "latitude": 35.626000,
+    "longitude": 139.884500,
+    "type": "attraction"
+  },
+  {
+    "name": "Venetian Gondolas",
+    "area": "Mediterranean Harbor",
+    "latitude": 35.626800,
+    "longitude": 139.885000,
+    "type": "attraction"
+  },
+  {
+    "name": "Magellan's",
+    "area": "Mediterranean Harbor",
+    "latitude": 35.626600,
+    "longitude": 139.885500,
+    "type": "restaurant"
+  },
+  {
+    "name": "S.S. Columbia Dining Room",
+    "area": "American Waterfront",
+    "latitude": 35.625700,
+    "longitude": 139.887400,
+    "type": "restaurant"
+  },
+  {
+    "name": "Vulcania Restaurant",
+    "area": "Mysterious Island",
+    "latitude": 35.626100,
+    "longitude": 139.884300,
+    "type": "restaurant"
+  },
+  {
+    "name": "McDuck's Department Store",
+    "area": "American Waterfront",
+    "latitude": 35.625800,
+    "longitude": 139.887600,
+    "type": "shop"
+  },
+  {
+    "name": "Valentina's Sweets",
+    "area": "Mediterranean Harbor",
+    "latitude": 35.626900,
+    "longitude": 139.885200,
+    "type": "shop"
+  },
+  {
+    "name": "Resort Gateway Station",
+    "area": "Resort Line",
+    "latitude": 35.634800,
+    "longitude": 139.884800,
+    "type": "station"
+  },
+  {
+    "name": "Tokyo Disneyland Station",
+    "area": "Resort Line",
+    "latitude": 35.635100,
+    "longitude": 139.880500,
+    "type": "station"
+  },
+  {
+    "name": "Tokyo DisneySea Station",
+    "area": "Resort Line",
+    "latitude": 35.627500,
+    "longitude": 139.889200,
+    "type": "station"
+  },
+  {
+    "name": "Bayside Station",
+    "area": "Resort Line",
+    "latitude": 35.631500,
+    "longitude": 139.888000,
+    "type": "station"
+  },
+  {
+    "name": "Disney Ambassador Hotel",
+    "area": "Hotels",
+    "latitude": 35.630900,
+    "longitude": 139.883000,
+    "type": "hotel"
+  },
+  {
+    "name": "Tokyo DisneySea Hotel MiraCosta",
+    "area": "Hotels",
+    "latitude": 35.627000,
+    "longitude": 139.886000,
+    "type": "hotel"
+  },
+  {
+    "name": "Tokyo Disneyland Hotel",
+    "area": "Hotels",
+    "latitude": 35.634500,
+    "longitude": 139.878500,
+    "type": "hotel"
+  },
+  {
+    "name": "Disney Resort Line Ticket Center",
+    "area": "Resort Area",
+    "latitude": 35.634700,
+    "longitude": 139.884500,
+    "type": "shop"
+  },
+  {
+    "name": "Ikspiari Shopping Mall",
+    "area": "Resort Area",
+    "latitude": 35.635200,
+    "longitude": 139.884700,
+    "type": "shop"
+  }
+]

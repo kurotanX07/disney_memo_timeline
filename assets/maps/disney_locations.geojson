@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cinderella Castle",
+        "area": "Fantasyland",
+        "type": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8804, 35.6329]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Space Mountain",
+        "area": "Tomorrowland",
+        "type": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8800, 35.6335]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Big Thunder Mountain",
+        "area": "Westernland",
+        "type": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8789, 35.6322]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mediterranean Harbor",
+        "area": "Mediterranean Harbor",
+        "type": "area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8853, 35.6267]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tower of Terror",
+        "area": "American Waterfront",
+        "type": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8872, 35.6256]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Resort Gateway Station",
+        "area": "Resort Line",
+        "type": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8848, 35.6348]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tokyo Disneyland Station",
+        "area": "Resort Line",
+        "type": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8805, 35.6351]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Disney Ambassador Hotel",
+        "area": "Hotels",
+        "type": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8830, 35.6309]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tokyo DisneySea Hotel MiraCosta",
+        "area": "Hotels",
+        "type": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8860, 35.6270]
+      }
+    }
+  ]
+}
